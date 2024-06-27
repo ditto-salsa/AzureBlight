@@ -2723,7 +2723,7 @@ The kingdom's highest authority. She[NL]
 is a popular ruler of great virtue.[.][X]
 
 # 0x0354
-Iron Sword[X]
+Short Sword[X]
 
 # 0x0355
 Slim Sword[X]

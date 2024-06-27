@@ -1,4 +1,5 @@
 #ifndef HAX_CONFIG
+#ifndef HAX_CONFIG
 #define HAX_CONFIG
 
 // This file holds configuration switches for all hacks shipped with the skill system.
@@ -14,7 +15,7 @@
 #define AS_DOUBLING_THRESHOLD 4
 
 // If true, dropped items will retain their durability.
-#define DROPPED_ITEM_DURABILITY True
+#define DROPPED_ITEM_DURABILITY False
 
 // ===================================
 // = HACK INSTALLATION CONFIGURATION =
@@ -27,7 +28,7 @@
 // If uncommented, a full str/split will be implemented without replacing any stats
 // TODO: Define an item ID for Spirit Dust (Mag statbooster) in "Strmag/Str Mag Split/Installer.event". Energy Ring is used by default!
 // Item icon for Spirit Dust is included! Define your icon ID in "Strmag/_Master Asm Installer.event". Default is Green Note.
-// #define USE_STRMAG_SPLIT
+#define USE_STRMAG_SPLIT
 
 // If uncommented, the statscreen will have a moving background similar to FE6 and FE7.
 // Customization of graphical assets is possible in Necessary/ModularStatScreen/Background/Graphics/Graphics.event.
@@ -103,12 +104,12 @@
 //#define HAX_PROPER_RANGE_GETTERS_EVENT
 
 //If uncommented, will use allegiance-based statscreen palettes.
-// #define STATSCREEN_ALLEGIANCE
+//#define STATSCREEN_ALLEGIANCE
 
 // If uncommented, the Anima Triangle will be implemented.
 // Go to "AnimaTriangle/AnimaTriangle.event" to define your fire, thunder, and wind magic lists.
 // This patch normally conflicts with Tri-Adept, but installing here remedies this.
-// #define ANIMA_TRIANGLE
+#define ANIMA_TRIANGLE
 
 // If uncomented, ModularEXP will be implemented.
 // Go to "ModularEXP/ModularEXP.event" and "Tables/FE8 Nightmare modules/Misc/Modular EXP Class Table.csv" to edit experience gains.
@@ -122,7 +123,7 @@
 
 // If uncommented, StairsASM will be implemented.
 // This patch adds an entry to the Unit Menu, so installing here is necessary.
-// #define STAIRS_ASM
+#define STAIRS_ASM
 
 // If uncommented, Raid will be implemented.
 // This patch adds an entry to the Unit Menu, so installing here is necessary.
@@ -134,7 +135,7 @@
 
 // If uncommented, Leadership Stars will be implemented.
 // Go to LeadershipStars/LeadershipStars.event to edit settings.
-// #define LEADERSHIP_STARS
+#define LEADERSHIP_STARS
 
 // If uncommented, Biorhythm will be implemented.
 // Go to "Biorhythm/Biorhythm.event" to edit settings.
@@ -203,7 +204,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 //#define INSTALL_AoE
 
 // If uncommented, Unlock staves will work on chests.
-// #define UNLOCK_WORKS_ON_CHESTS
+#define UNLOCK_WORKS_ON_CHESTS
 
 // If uncommented, damage numbers will display over participants' heads during battle animations.
 // #define BATTLE_ANIMATION_NUMBERS
@@ -217,7 +218,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 // #define DONT_STACK_BOOSTS
 
 // If uncommented all boss kills will play critical hit animations.
-// #define FLASHY_MODE
+#define FLASHY_MODE
 
 // If uncommented, the unit load buffer will be repointed.
 // The location it is repointed to is also defined here. The default location is
@@ -364,14 +365,14 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 #define USE_STAT_COLORS True
 
 //When leveling up, the game rerolls (up to 5 times) until you gain at least this many points
-#define MIN_STAT_GAIN 1 // vanilla is 1 
+#define MIN_STAT_GAIN 2 // vanilla is 1 
 
 // If true, fixed/bracketed levels will consider your lowest level as the level inputted in the character table
 #define BRACKETING_USE_BASE_LEVEL False 
 
 //If true, Fixed Growths mode will exist.
 // Note: this takes promotion level into account, but does not take stat boosters into account 
-#define FIXED_GROWTHS_MODE False
+#define FIXED_GROWTHS_MODE True
 
 //ID of flag to use for fixed growths mode, if enabled (also works if flag here is defined as 0)
 #define FIXED_GROWTHS_FLAG_ID 0xEF
@@ -390,7 +391,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 #define PREVENT_WHEN_ABOVE_AVERAGE_BY_AMOUNT 5 
 
 //If true, passive growth boosters and metis tome will not affect growths in fixed growths mode.
-#define FIXED_GROWTHS_DONT_BOOST True
+#define FIXED_GROWTHS_DONT_BOOST False
 
 //If true, enemy/NPC autolevels will use fixed growths as well.
 #define ENEMY_NPC_FIXED_GROWTHS True
@@ -400,7 +401,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 #define STACKABLE_GROWTH_BOOSTS True
 
 //Amount for Metis Tome to boost growths by
-#define METIS_TOME_BOOST 5
+#define METIS_TOME_BOOST 100
 
 //If true, growths will be calculated as (char growth + class growth).
 #define USE_CHAR_AND_CLASS_GROWTHS False

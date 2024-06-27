@@ -51,14 +51,14 @@ Sirius[X]
 Zeke[X]
 
 ## StairsNameText
- Stairs[X]
+ Warp[X]
 
 ## StairsDescText
-Take this staircase to[N]
-the connecting end.[X]
+Use the warp tile to warp[N]
+to the connecting tile.[X]
 
 ## StairsBlockedText
-The staircase is blocked[N]
+The warp tile is blocked[N]
 from the other side.[X]
 
 ## RaidNameText
@@ -121,3 +121,115 @@ a skill when used.[X]
 #include "skilldesc_text.txt"
 
 #include "unitinfo_text.txt"
+
+
+// 0x0212 till 0x026D is vanilla name entries
+
+//Playables
+# 0x212 SerolName
+^{Serol}[X]
+
+## ThaliaName
+^{Thalia}[X]
+
+## ShinoName
+^{Shino}[X]
+
+## JessName
+^{Jess}[X]
+
+## SaraName
+^{Sara}[X]
+
+## TianaName
+^{Tiana}[X]
+
+## GigiName
+^{Gigi}[X]
+
+## OliverName
+^{Oliver}[X]
+
+## ErartName
+^{Erart}[X]
+
+## SunniName
+^{Sunni}[X]
+
+## CindraName
+^{Cindra}[X]
+
+## SelisName
+^{Selis}[X]
+
+## AzureName
+^{Azure}[X]
+
+## BaftarName
+^{Baftar}[X]
+
+## CourteousName
+^{Courteous}[X]
+
+## LibraName
+^{Libra}[X]
+
+## CilkaName
+^{Cilka}[X]
+
+//Bosses
+
+## GrissName
+^{Griss}[X]
+
+## HoodLorienName
+?????[X]
+
+## TheaName
+^{Thea}[X]
+
+## BanmaName
+^{Banma}[X]
+
+//Generics
+
+## RebelName
+^{Rebel}[X]
+
+## FelikhosName
+^{Felikhos}[X]
+
+## MystianName
+^{Mystian}[X]
+
+## ForsakenName
+^{Forsaken}[X]
+
+## BlightedName
+^{Blighted}[X]
+
+//Start Descs after names
+## SerolDesc
+^{The Lord of House Felikhos of Kush'en,}[N]
+^{who is a strong-willed commander of battle.}[X]
+
+## ThaliaDesc
+^{A shy cavalier from the Kush'en Isles.}[N]
+^{Serol's wife. Cares deeply for those around her.}[X]
+
+## ShinoDesc
+^{One of Kush'en's best knights.}[N]
+^{Entrusted by the King to keep Serol safe.}[N]
+^{Enjoys his work.}[X]
+
+// 0x354 is the start of vanilla item name
+
+# 0x354 ShortSwordName
+^{Short Sword}[X]
+
+## BroadswordName
+^{Broadsword}[X]
+
+## BastardSwordName
+^{Bastard Sword}[X]
+

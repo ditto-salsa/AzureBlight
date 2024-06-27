@@ -1,0 +1,16 @@
+PUSH
+ORG $88620
+POIN RemoveSpinny
+ORG $88638
+POIN Statscreen
+ORG $88640
+POIN StatscreenPal
+POP
+
+ALIGN 4
+RemoveSpinny:
+#incext Png2Dmp "Spinny.png" --lz77
+Statscreen:
+#incext Png2Dmp "StatScreen.png" --lz77
+StatscreenPal:
+#incext Png2Dmp "StatScreen.png" --palette-only

@@ -1,0 +1,77 @@
+ALIGN 4
+BanmaMug:
+#incbin "Banma_mug.dmp"
+#incbin "Banma_frames.dmp"
+#incbin "Banma_palette.dmp"
+#incbin "Banma_minimug.dmp"
+
+ALIGN 4
+GrissMug:
+#incbin "Griss_mug.dmp"
+#incbin "Griss_frames.dmp"
+#incbin "Griss_palette.dmp"
+#incbin "Griss_minimug.dmp"
+
+ALIGN 4
+HoodedLorienMug:
+#incbin "HoodedLorien_mug.dmp"
+#incbin "HoodedLorien_frames.dmp"
+#incbin "HoodedLorien_palette.dmp"
+#incbin "HoodedLorien_minimug.dmp"
+
+ALIGN 4
+JessMug:
+#incbin "Jess_mug.dmp"
+#incbin "Jess_frames.dmp"
+#incbin "Jess_palette.dmp"
+#incbin "Jess_minimug.dmp"
+
+ALIGN 4
+SamaelMug:
+#incbin "Samael_mug.dmp"
+#incbin "Samael_frames.dmp"
+#incbin "Samael_palette.dmp"
+#incbin "Samael_minimug.dmp"
+
+ALIGN 4
+SaraMug:
+#incbin "Sara_mug.dmp"
+#incbin "Sara_frames.dmp"
+#incbin "Sara_palette.dmp"
+#incbin "Sara_minimug.dmp"
+
+ALIGN 4
+SerolMug:
+#incbin "Serol_mug.dmp"
+#incbin "Serol_frames.dmp"
+#incbin "Serol_palette.dmp"
+#incbin "Serol_minimug.dmp"
+
+ALIGN 4
+ShinoMug:
+#incbin "Shino_mug.dmp"
+#incbin "Shino_frames.dmp"
+#incbin "Shino_palette.dmp"
+#incbin "Shino_minimug.dmp"
+
+ALIGN 4
+ThaliaMug:
+#incbin "Thalia_mug.dmp"
+#incbin "Thalia_frames.dmp"
+#incbin "Thalia_palette.dmp"
+#incbin "Thalia_minimug.dmp"
+
+ALIGN 4
+TheaMug:
+#incbin "Thea_mug.dmp"
+#incbin "Thea_frames.dmp"
+#incbin "Thea_palette.dmp"
+#incbin "Thea_minimug.dmp"
+
+ALIGN 4
+TianaMug:
+#incbin "Tiana_mug.dmp"
+#incbin "Tiana_frames.dmp"
+#incbin "Tiana_palette.dmp"
+#incbin "Tiana_minimug.dmp"
+

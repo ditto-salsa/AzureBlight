@@ -809,7 +809,7 @@
 
 //Dragonskin: Halve damage taken
 //By Jopettajah
-#define DragonSkinID 255
+#define DragonSkinID 4
 #define DragonskinID DragonSkinID //Alias
 
 //Stunning Smile: If foe is male, inflicts Avo-20 on that foe during combat.
@@ -1419,7 +1419,7 @@
 
 //Display-Only Skills
 
-#define CunningID 4
+#define CunningID 255
 #define NiceThighsID 115
 #define PersonalityID 116
 

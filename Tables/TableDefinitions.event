@@ -27,6 +27,7 @@
 #define CRank 71
 #define BRank 121
 #define ARank 181
+#define SRANK 251
 #define SRank 251
 
 //Weapon Ability
