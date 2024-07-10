@@ -14,6 +14,7 @@ POIN MakeAuraSkillBuffer // So auras work from here
 POIN ProcessDebuffs ArmorMarch_StartOfTurn VigorDanceReset // Standalone things that loop through all units and do not pause the game 
 POIN KeepUp
 POIN SnowWarning Sandstream Drizzle Drought Airlock
+POIN ExpoAvoDrop
 WORD 0 
 
 
@@ -153,4 +154,5 @@ StartOfTurnBuffFunctionEntry(EvenFootedID, IsEvenFootedApplicable, EvenFooted)
 
 #include "StartOfTurn_CalcLoop.lyn.event" 
 
-
+ExpoAvoDrop:
+#incbin "ExpoAvoDropTurn.dmp"

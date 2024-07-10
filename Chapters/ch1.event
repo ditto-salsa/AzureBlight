@@ -1,0 +1,37 @@
+
+EventPointerTable(7,Ch1Events)
+
+Ch1Events:
+
+POIN TurnBasedEvents
+
+POIN CharacterBasedEvents
+
+POIN LocationBasedEvents
+
+POIN MiscBasedEvents
+
+POIN Dunno Dunno Dunno
+
+POIN Tutorial
+
+POIN TrapData TrapDataHard
+
+POIN PlayerUnits PlayerUnitsHard
+
+POIN $0 $0 $0 $0 $0 $0
+
+POIN BeginningScene EndingScene
+
+
+Dunno:
+WORD $00
+
+Tutorial:
+WORD $00
+
+
+PlayerUnits:
+UNIT 0x1 0x1 Level(1,Ally,False) [2,16] 0x0 0x0 0x0 0x1 [Lightning,Vulnerary] NoAI
+
+UNIT

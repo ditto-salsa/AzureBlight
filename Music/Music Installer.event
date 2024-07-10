@@ -24,16 +24,13 @@
 #define SFXGroup 6
 
 #include "FE12HolyWar.event"
-SongTable(9,song09,1)
+SongTable(1,HolyWar,1)
 
 #include "nyawenyyeCrimsonRidge.event"
-SongTable(2,song01,1)
+SongTable(9,CrimsonRidge,1)
 
 #include "FE15Truth.event"
-SongTable(0x43,song02,0)
-
-
-
+SongTable(0x43,Truth,0)
 
 FE8SoundMixer:
 #incbin "FE8_Improved_Sound_Mixer.bin"

@@ -232,4 +232,6 @@ POP
 
   // Save/Suspend Expansion
     #include "Necessary/ExpandedModularSave/ExModularSave.event"
-
+  
+  //Lockpicks usable by anyone
+  #include "QualityOfLife/LockpickUsableByAnyone/LockpickUsableByAnyone.event"

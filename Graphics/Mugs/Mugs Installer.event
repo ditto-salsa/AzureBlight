@@ -6,22 +6,25 @@
 //TODO: Figure out how to get the scripts to call the Tools folder instead
 
 //This is a standard mug entry macro. The format is setMugEntry(portraitID, the reference to the portrait label, x mouth coord, y mouth coord, x eye coord, y eye coord)
-setMugEntry(0x2, SerolMug, 2,6,3,4)
 
-setMugEntry(0x3, ThaliaMug, 4,6,4,4)
+setMugEntry(0x2, OrinocoMug, 3,5,3,3)
 
-setMugEntry(0x4, ShinoMug, 3,5,3,3)
+setMugEntry(0x3, SerolMug, 2,6,3,4)
 
-setMugEntry(0x5, JessMug, 4,6,4,4)
+setMugEntry(0x4, ThaliaMug, 4,6,4,4)
 
-setMugEntry(0x6, TianaMug, 3,5,3,3)
+setMugEntry(0x5, ShinoMug, 3,5,3,3)
 
-setMugEntry(0x7, SaraMug, 4,6,3,4)
+setMugEntry(0x6, JessMug, 4,6,4,4)
 
-setMugEntry(0x8, SamaelMug, 2,5,2,3)
+setMugEntry(0x7, TianaMug, 3,5,3,3)
 
-setMugEntry(0x9, BanmaMug, 2,5,2,3)
+setMugEntry(0x8, SaraMug, 4,6,3,4)
 
-setMugEntry(0xA, GrissMug, 4,5,4,3)
+setMugEntry(0x9, SamaelMug, 2,5,2,3)
 
-setMugEntry(0xB, TheaMug, 2,6,3,4)
+setMugEntry(0xA, BanmaMug, 2,5,2,3)
+
+setMugEntry(0xB, GrissMug, 4,5,4,3)
+
+setMugEntry(0xC, TheaMug, 2,6,3,4)

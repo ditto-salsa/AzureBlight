@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 0
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	Truth_grp, voicegroup000
+	.equ	Truth_pri, 0
+	.equ	Truth_rev, 0
+	.equ	Truth_mvl, 127
+	.equ	Truth_key, 0
+	.equ	Truth_tbs, 1
+	.equ	Truth_exg, 0
+	.equ	Truth_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	Truth
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+Truth_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , Truth_key+0
 Label_547722:
- .byte   TEMPO , 84*song02_tbs/2
+ .byte   TEMPO , 84*Truth_tbs/2
  .byte   VOICE , 40
- .byte   VOL , 100*song02_mvl/mxv
+ .byte   VOL , 100*Truth_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W72
  .byte   W72
@@ -152,24 +152,24 @@ Label_5477A9:
  .byte   Gs2 ,v072
  .byte   W72
 Label_5477C0:
- .byte   TEMPO , 82*song02_tbs/2
+ .byte   TEMPO , 82*Truth_tbs/2
  .byte   W24
 @  #01 @013   ----------------------------------------
- .byte   TEMPO , 80*song02_tbs/2
+ .byte   TEMPO , 80*Truth_tbs/2
  .byte   W24
- .byte   TEMPO , 76*song02_tbs/2
+ .byte   TEMPO , 76*Truth_tbs/2
  .byte   W24
  .byte   PEND 
 Label_5477CA:
- .byte   TEMPO , 72*song02_tbs/2
+ .byte   TEMPO , 72*Truth_tbs/2
  .byte   W24
- .byte   TEMPO , 68*song02_tbs/2
+ .byte   TEMPO , 68*Truth_tbs/2
  .byte   W24
 @  #01 @014   ----------------------------------------
- .byte   TEMPO , 64*song02_tbs/2
+ .byte   TEMPO , 64*Truth_tbs/2
  .byte   W24
  .byte   PEND 
- .byte   TEMPO , 84*song02_tbs/2
+ .byte   TEMPO , 84*Truth_tbs/2
  .byte   W72
 @  #01 @015   ----------------------------------------
  .byte   W72
@@ -472,7 +472,7 @@ Label_5478A6:
  .byte   PATT
   .word Label_5477CA
 @  #01 @048   ----------------------------------------
- .byte   TEMPO , 84*song02_tbs/2
+ .byte   TEMPO , 84*Truth_tbs/2
  .byte   W72
  .byte   W72
 @  #01 @049   ----------------------------------------
@@ -530,10 +530,10 @@ Label_5478A6:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+Truth_002:
 @  #02 @000   ----------------------------------------
- .byte   VOL , 127*song02_mvl/mxv
- .byte   KEYSH , song02_key+0
+ .byte   VOL , 127*Truth_mvl/mxv
+ .byte   KEYSH , Truth_key+0
 Label_5466C4:
  .byte   VOICE , 0
  .byte   N11 ,Fn1 ,v088
@@ -1126,13 +1126,13 @@ Label_546921:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+Truth_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , Truth_key+0
 Label_546E4E:
  .byte   VOICE , 0
  .byte   PAN , c_v+0
- .byte   VOL , 100*song02_mvl/mxv
+ .byte   VOL , 100*Truth_mvl/mxv
  .byte   W72
  .byte   W72
 @  #03 @001   ----------------------------------------
@@ -1700,16 +1700,16 @@ Label_547037:
 @******************************************************@
 	.align	2
 
-song02:
+Truth:
 	.byte	3	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	Truth_pri	@ Priority
+	.byte	Truth_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	Truth_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
+	.word	Truth_001
+	.word	Truth_002
+	.word	Truth_003
 
 	.end

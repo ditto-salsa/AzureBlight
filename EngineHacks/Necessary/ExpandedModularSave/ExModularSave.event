@@ -198,10 +198,10 @@ gSuspendSaveChunks:
 	DeclSaveChunk($23ED, DebuffTableSize, SUD_SaveDebuffs,  SUD_LoadDebuffs)
 
 	// Permanent eids (moved here because of a mistake in the previous allocation)
-	DeclSaveChunk($282D, $0019, $0A3150+1, $0A3198+1)
+	DeclSaveChunk($28B5, $0019, $0A3150+1, $0A3198+1)
 
 	// $25AA
-	DeclSaveChunk($2846, $00C8, MSa_WriteSupplyItems, MSa_ReadSupplyItems)  // Convoy Items
+	DeclSaveChunk($28CE, $00C8, MSa_WriteSupplyItems, MSa_ReadSupplyItems)  // Convoy Items
 	
 	// ends at $290E
 	// free up to $2E78 ($56A free bytes)

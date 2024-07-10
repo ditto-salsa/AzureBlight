@@ -44,6 +44,8 @@ POIN UpWithArch
 POIN AxefaithHit
 POIN StancesASM
 POIN AirRaidSkillCheck
+POIN ExpoAvoDrop
+
 #ifdef ENABLE_GBA_LETHALITY
 POIN LethalitySkill 
 #else
@@ -116,5 +118,9 @@ POP
 ALIGN 4
 rewriteRangeMap:
 #incbin "rewriteRangeMap.dmp"
+
+ALIGN 4
+ExpoAvoDrop:
+#incbin "ExpoAvoDropPreBattle.dmp"
 
 PROTECT 0x2A95C 0x2A968

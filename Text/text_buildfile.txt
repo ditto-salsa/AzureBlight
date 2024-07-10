@@ -126,7 +126,10 @@ a skill when used.[X]
 // 0x0212 till 0x026D is vanilla name entries
 
 //Playables
-# 0x212 SerolName
+# 0x212 OrinocoName
+^{Orinoco}[X]
+
+## SerolName
 ^{Serol}[X]
 
 ## ThaliaName
@@ -138,50 +141,7 @@ a skill when used.[X]
 ## JessName
 ^{Jess}[X]
 
-## SaraName
-^{Sara}[X]
-
-## TianaName
-^{Tiana}[X]
-
-## GigiName
-^{Gigi}[X]
-
-## OliverName
-^{Oliver}[X]
-
-## ErartName
-^{Erart}[X]
-
-## SunniName
-^{Sunni}[X]
-
-## CindraName
-^{Cindra}[X]
-
-## SelisName
-^{Selis}[X]
-
-## AzureName
-^{Azure}[X]
-
-## BaftarName
-^{Baftar}[X]
-
-## CourteousName
-^{Courteous}[X]
-
-## LibraName
-^{Libra}[X]
-
-## CilkaName
-^{Cilka}[X]
-
 //Bosses
-
-## GrissName
-^{Griss}[X]
-
 ## HoodLorienName
 ?????[X]
 
@@ -209,6 +169,7 @@ a skill when used.[X]
 ^{Blighted}[X]
 
 //Start Descs after names
+
 ## SerolDesc
 ^{The Lord of House Felikhos of Kush'en,}[N]
 ^{who is a strong-willed commander of battle.}[X]
@@ -221,6 +182,19 @@ a skill when used.[X]
 ^{One of Kush'en's best knights.}[N]
 ^{Entrusted by the King to keep Serol safe.}[N]
 ^{Enjoys his work.}[X]
+
+## OrinocoDesc
+^{Orinoco Description}[X]
+
+## JessDesc
+^{Jess Description}[X]
+
+## Ch1Objective
+^{Escape.}[X]
+
+## Ch1ObjectiveBig
+^{Escape to}[N]
+^{the Northeast.}[X]
 
 // 0x354 is the start of vanilla item name
 

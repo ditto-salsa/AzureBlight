@@ -27,6 +27,13 @@ JessMug:
 #incbin "Jess_minimug.dmp"
 
 ALIGN 4
+OrinocoMug:
+#incbin "Orinoco_mug.dmp"
+#incbin "Orinoco_frames.dmp"
+#incbin "Orinoco_palette.dmp"
+#incbin "Orinoco_minimug.dmp"
+
+ALIGN 4
 SamaelMug:
 #incbin "Samael_mug.dmp"
 #incbin "Samael_frames.dmp"

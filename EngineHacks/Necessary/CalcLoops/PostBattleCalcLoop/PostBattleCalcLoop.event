@@ -9,6 +9,7 @@ POP
 PostCombatLoop:
 #incbin "post_loop.dmp"
 POIN PostCombatSkills
+POIN ExpoAvoDrop
 
 PostCombatSkills: //I like having savage blow as the first one because it makes the activation sound play first
 POIN InitSkillBuffers //Refresh skill buffers so freshly learned post-battle skills can apply
@@ -19,5 +20,9 @@ POIN Canto CantoPlus Galeforce FailGale ReMove Powerstaff CulturedPostCombat Gri
 	POIN GaidenZeroOutSpellVariables // without this there was an R-text bug when obtaining an item during the end scene after KOing an enemy 
 #endif // GAIDEN_MAGIC
 WORD 0 //Terminator
+
+ALIGN 4
+ExpoAvoDrop:
+#incbin "ExpoAvoDropPostBattle.dmp"
 
 PROTECT $1D308 $1D314

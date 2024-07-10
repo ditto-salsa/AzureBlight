@@ -1,26 +1,26 @@
 	.include "MPlayDef.s"
 
-	.equ	song01_grp, voicegroup000
-	.equ	song01_pri, 0
-	.equ	song01_rev, 0
-	.equ	song01_mvl, 127
-	.equ	song01_key, 0
-	.equ	song01_tbs, 1
-	.equ	song01_exg, 0
-	.equ	song01_cmp, 1
+	.equ	CrimsonRidge_grp, voicegroup000
+	.equ	CrimsonRidge_pri, 0
+	.equ	CrimsonRidge_rev, 0
+	.equ	CrimsonRidge_mvl, 127
+	.equ	CrimsonRidge_key, 0
+	.equ	CrimsonRidge_tbs, 1
+	.equ	CrimsonRidge_exg, 0
+	.equ	CrimsonRidge_cmp, 1
 
 	.section .rodata
-	.global	song01
+	.global	CrimsonRidge
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song01_001:
+CrimsonRidge_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song01_key+0
- .byte   TEMPO , 170*song01_tbs/2
- .byte   VOL , 29*song01_mvl/mxv
+ .byte   KEYSH , CrimsonRidge_key+0
+ .byte   TEMPO , 170*CrimsonRidge_tbs/2
+ .byte   VOL , 29*CrimsonRidge_mvl/mxv
  .byte   W24
 Label_545B7B:
  .byte   VOICE , 73
@@ -191,11 +191,11 @@ Label_545B7B:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song01_002:
+CrimsonRidge_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song01_key+0
+ .byte   KEYSH , CrimsonRidge_key+0
  .byte   VOICE , 127
- .byte   VOL , 88*song01_mvl/mxv
+ .byte   VOL , 88*CrimsonRidge_mvl/mxv
  .byte   W24
 Label_01C32613:
  .byte   N23 ,Cn1 ,v100
@@ -946,10 +946,10 @@ Label_01C328DC:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song01_003:
+CrimsonRidge_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song01_key+0
- .byte   VOL , 33*song01_mvl/mxv
+ .byte   KEYSH , CrimsonRidge_key+0
+ .byte   VOL , 33*CrimsonRidge_mvl/mxv
  .byte   W24
 Label_545DA1:
  .byte   VOICE , 71
@@ -1094,11 +1094,11 @@ Label_545DA1:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song01_004:
+CrimsonRidge_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song01_key+0
+ .byte   KEYSH , CrimsonRidge_key+0
  .byte   VOICE , 57
- .byte   VOL , 48*song01_mvl/mxv
+ .byte   VOL , 48*CrimsonRidge_mvl/mxv
  .byte   W24
 Label_54566B:
  .byte   PAN , c_v-18
@@ -1557,10 +1557,10 @@ Label_5457E8:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song01_005:
+CrimsonRidge_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song01_key+0
- .byte   VOL , 53*song01_mvl/mxv
+ .byte   KEYSH , CrimsonRidge_key+0
+ .byte   VOL , 53*CrimsonRidge_mvl/mxv
  .byte   W24
 Label_5451D5:
  .byte   VOICE , 60
@@ -1816,10 +1816,10 @@ Label_5451D5:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song01_006:
+CrimsonRidge_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song01_key+0
- .byte   VOL , 56*song01_mvl/mxv
+ .byte   KEYSH , CrimsonRidge_key+0
+ .byte   VOL , 56*CrimsonRidge_mvl/mxv
  .byte   W23
  .byte   W01
 Label_01C32A3A:
@@ -2528,11 +2528,11 @@ Label_01C32C67:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song01_007:
+CrimsonRidge_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song01_key+0
+ .byte   KEYSH , CrimsonRidge_key+0
  .byte   VOICE , 61
- .byte   VOL , 53*song01_mvl/mxv
+ .byte   VOL , 53*CrimsonRidge_mvl/mxv
  .byte   W24
 Label_01C32DFF:
  .byte   PAN , c_v-42
@@ -2929,11 +2929,11 @@ Label_01C32EFC:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song01_008:
+CrimsonRidge_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song01_key+0
+ .byte   KEYSH , CrimsonRidge_key+0
  .byte   VOICE , 51
- .byte   VOL , 45*song01_mvl/mxv
+ .byte   VOL , 45*CrimsonRidge_mvl/mxv
  .byte   W24
 Label_01C32F9B:
  .byte   PAN , c_v-12
@@ -3307,11 +3307,11 @@ Label_01C32F9B:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song01_009:
+CrimsonRidge_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song01_key+0
+ .byte   KEYSH , CrimsonRidge_key+0
  .byte   VOICE , 40
- .byte   VOL , 35*song01_mvl/mxv
+ .byte   VOL , 35*CrimsonRidge_mvl/mxv
  .byte   W24
 Label_01C33163:
  .byte   PAN , c_v+18
@@ -3615,11 +3615,11 @@ Label_01C33163:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song01_010:
+CrimsonRidge_010:
 @  #10 @000   ----------------------------------------
- .byte   KEYSH , song01_key+0
+ .byte   KEYSH , CrimsonRidge_key+0
  .byte   VOICE , 50
- .byte   VOL , 22*song01_mvl/mxv
+ .byte   VOL , 22*CrimsonRidge_mvl/mxv
  .byte   W23
  .byte   W01
 Label_01C3329C:
@@ -3935,10 +3935,10 @@ Label_01C332CC:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-song01_011:
+CrimsonRidge_011:
 @  #11 @000   ----------------------------------------
- .byte   KEYSH , song01_key+0
- .byte   VOL , 60*song01_mvl/mxv
+ .byte   KEYSH , CrimsonRidge_key+0
+ .byte   VOL , 60*CrimsonRidge_mvl/mxv
  .byte   W24
 Label_01C333D9:
  .byte   VOICE , 47
@@ -4294,10 +4294,10 @@ Label_01C3342F:
 
 @**************** Track 12 (Midi-Chn.11) ****************@
 
-song01_012:
+CrimsonRidge_012:
 @  #12 @000   ----------------------------------------
- .byte   KEYSH , song01_key+0
- .byte   VOL , 62*song01_mvl/mxv
+ .byte   KEYSH , CrimsonRidge_key+0
+ .byte   VOL , 62*CrimsonRidge_mvl/mxv
  .byte   W24
 Label_545E21:
  .byte   VOICE , 46
@@ -4480,10 +4480,10 @@ Label_545E21:
 
 @**************** Track 13 (Midi-Chn.12) ****************@
 
-song01_013:
+CrimsonRidge_013:
 @  #13 @000   ----------------------------------------
- .byte   KEYSH , song01_key+0
- .byte   VOL , 42*song01_mvl/mxv
+ .byte   KEYSH , CrimsonRidge_key+0
+ .byte   VOL , 42*CrimsonRidge_mvl/mxv
  .byte   W23
  .byte   W01
 Label_545852:
@@ -4620,26 +4620,26 @@ Label_54588A:
 @******************************************************@
 	.align	2
 
-song01:
+CrimsonRidge:
 	.byte	13	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song01_pri	@ Priority
-	.byte	song01_rev	@ Reverb.
+	.byte	CrimsonRidge_pri	@ Priority
+	.byte	CrimsonRidge_rev	@ Reverb.
     
-	.word	song01_grp
+	.word	CrimsonRidge_grp
     
-	.word	song01_001
-	.word	song01_002
-	.word	song01_003
-	.word	song01_004
-	.word	song01_005
-	.word	song01_006
-	.word	song01_007
-	.word	song01_008
-	.word	song01_009
-	.word	song01_010
-	.word	song01_011
-	.word	song01_012
-	.word	song01_013
+	.word	CrimsonRidge_001
+	.word	CrimsonRidge_002
+	.word	CrimsonRidge_003
+	.word	CrimsonRidge_004
+	.word	CrimsonRidge_005
+	.word	CrimsonRidge_006
+	.word	CrimsonRidge_007
+	.word	CrimsonRidge_008
+	.word	CrimsonRidge_009
+	.word	CrimsonRidge_010
+	.word	CrimsonRidge_011
+	.word	CrimsonRidge_012
+	.word	CrimsonRidge_013
 
 	.end

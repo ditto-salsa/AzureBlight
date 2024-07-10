@@ -13,7 +13,7 @@
 
 #ifndef DebuffTableRam
   #define DebuffTableRam     0x0203F100
-  #define DebuffTableSize 0x00000440
+  #define DebuffTableSize 0x000004C8
 #endif
 
 #ifndef ChapterDataTable
@@ -43,4 +43,3 @@
 #include "EngineHacks/SkillSystem/skill_definitions.event"
 
 // #define __DEBUG__ // Uncomment to get the Debug startup menu :p
-
